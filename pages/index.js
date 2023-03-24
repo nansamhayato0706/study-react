@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
 import { Headline } from "../components/Headline";
 import { Links } from "../components/Links";
 import { Main } from "../components/Main";
@@ -12,7 +13,7 @@ export default function Home() {
         <title>Index Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <Main page="index" />
 
       <Footer />
