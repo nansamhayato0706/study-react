@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Index Page</title>
+        <title>About Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <Headline page="index" />
+        <Headline page="about" />
         <Links />
       </main>
 
